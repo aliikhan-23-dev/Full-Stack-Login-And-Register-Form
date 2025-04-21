@@ -1,0 +1,53 @@
+🌐 Simple PHP User Management Interface
+A lightweight PHP-based user interface for handling login, logout, and basic user/admin page routing with a clean and modern UI.
+
+🚀 Features
+🧑‍💼 Admin and user page routing
+
+🔐 Login and logout functionality
+
+🎨 Modern responsive UI (built with custom CSS)
+
+🧠 Minimal JS for UI behavior
+
+🗂 PHP backend file structure
+
+📁 File Structure
+pgsql
+Copy
+Edit
+├── index.php          # Landing and login page
+├── start.php          # Login form handler
+├── user-page.php      # User dashboard after login
+├── admin-page.php     # Admin dashboard after login
+├── logout.php         # Logout and session destroy
+├── start.css          # UI styling
+└── start.js           # JS for toggling forms (WIP)
+💻 Technologies Used
+PHP
+
+HTML/CSS
+
+JavaScript (Vanilla)
+
+Google Fonts (Poppins)
+
+🔧 How to Run
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/https://github.com/aliikhan-23-dev/your-Full-Stack Login And Register Form.git
+Place the files in your local server directory (e.g., htdocs for XAMPP).
+
+Run Apache and open the project in your browser:
+
+pgsql
+Copy
+Edit
+http://localhost/Full-Stack Login And Register Form/index.php
+⚠️ Notes
+Ensure session support is enabled in your PHP server.
+
+Make sure JavaScript form logic matches the HTML ids (there’s a small bug in start.js — form-box should be .form-box instead of "form-box" in the selector).
